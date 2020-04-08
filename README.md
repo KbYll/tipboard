@@ -78,10 +78,13 @@ Quick Demo
 Gameboard
 ------------
 Steam :
-In Gameboard, you need to add STEAM information in src/tipboard/app/properties.py 
-STEAM_ID = '<your steam id>'
-STEAM_API_KEY = '<your steam api key>'
-CSGO_APP_ID = '<app id for csgo>' #730
+In Gameboard, you need to add STEAM information in src/tipboard/app/properties.py
+
+STEAM_ID = 'your steam id'
+
+STEAM_API_KEY = 'your steam api key'
+
+CSGO_APP_ID = 'app id for csgo' #730
 
 Other game and platform coming soon..
 
