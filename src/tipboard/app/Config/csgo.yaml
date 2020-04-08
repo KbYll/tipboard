@@ -1,0 +1,43 @@
+details:
+    page_title: My_Dash
+    color_mode: black
+layout:
+  - row:
+      - col flip-time-5:
+          - tile_template: listing
+            tile_id: user_steam
+            title: Information
+
+          - tile_template: listing
+            tile_id: vac_steam
+            title: VAC
+
+      - col flip-time-5:
+          - tile_template: big_value
+            tile_id: ratio_bv_ex
+            title: Ratio
+
+          - tile_template: big_value
+            tile_id: headshot_bv_ex
+            title: Headshot
+
+      - col:
+          - tile_template: listing
+            tile_id: csgo_stats
+            title: Stats
+
+  - row:
+      - col:
+          - tile_template: doughnut_chart
+            tile_id: pistols_doughnut_ex
+            title: Pistols Kills
+
+      - col:
+          - tile_template: doughnut_chart
+            tile_id: assaultRifles_doughnut_ex
+            title: Assault Rifles Kills
+
+  #    - col:
+  #        - tile_template: text
+  #          tile_id: test_csgo_txt
+  #          title: Test CSGO

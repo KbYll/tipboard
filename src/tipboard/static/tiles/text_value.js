@@ -6,8 +6,8 @@
  */
 function setDataByKeys(tileId, dataToPut) {
     let fieldsToUpdate = [];
-    for (let data in tileData.data) {
-        if ({}.hasOwnProperty.call(tileData.data, data)) {
+    for (let data in dataToPut) {
+        if ({}.hasOwnProperty.call(dataToPut, data)) {
             fieldsToUpdate.push(data);
         }
     }

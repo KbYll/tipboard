@@ -57,7 +57,8 @@ def getDefaultNormChart():
             'title': {'display': True, 'text': 'Curve Comparaison'}, 'labels': [1, 3, 5, 7, 9, 11],
             'datasets': [
                 buildDatasetNorm(index=0, randomData=True, labelLenght=6),
-                buildDatasetNorm(index=1, randomData=True, labelLenght=6)
+                buildDatasetNorm(index=1, randomData=True, labelLenght=6),
+                buildDatasetNorm(index=2, randomData=True, labelLenght=6)
             ]
         },
         'meta': {

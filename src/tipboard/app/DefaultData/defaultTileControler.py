@@ -6,9 +6,9 @@ from src.tipboard.app.DefaultData.defaultTileChartJs import getDefaultDoughnutCh
 from src.tipboard.app.DefaultData.defaultTileChartJs import getDefaultNormChart, getDefaultCumulFlow
 from src.tipboard.app.DefaultData.defaultTileChartJs import getDefaultTsGaugeChart, getDefaultRadialGaugeChart
 from src.tipboard.app.DefaultData.defaultTileChartJs import getDefaultLinearGaugeChart, getDefaultVLinearGaugeChart
-from src.tipboard.app.DefaultData.defaultTilesText import getDefaultText, getDefaultListing, getDefaultJustValue
+from src.tipboard.app.DefaultData.defaultTilesText import getDefaultListing, getDefaultJustValue
 from src.tipboard.app.DefaultData.defaultTilesText import getDefaultSimplePercentg, getDefaultBigValue
-from src.tipboard.app.DefaultData.defaultTilesText import getDefaultCustomTile
+from src.tipboard.app.DefaultData.defaultTilesText import getDefaultCustomTile, getDefaultText
 
 
 def getDefaultStreamTile():
